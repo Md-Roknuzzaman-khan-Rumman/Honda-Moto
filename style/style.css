@@ -16,37 +16,6 @@
 
 
 /* ==================================================
-==============// CSS TABLE OF CONTENT //=============
-*   
-*   ----- FIXING CSS SECTION -----
-*   1.  Reset CSS
-*
-*   ----- COMMON CSS SECTION -----
-*   2.  Custom CSS
-*   3.  Common CSS 
-*  
-*   ----- HEADER SECTION -----
-*   4. Header Section
-*   5. Header Text
-*   6. Heading Images
-*   7. Nav Section
-*
-*   ----- MAIN SECTION -----
-*   8. Player Card Section
-*   9. Player Info Box Design 
-*  10. Highlight Section
-*  11. Upcoming Matches Section
-*  12. Upcoming Match Box Design
-*  13. Sponsors Section
-*   
-*   ----- FOOTER SECTION -----
-*   14. Social Link Design
-*   15. Copyright Infos Design
-*   
-===================================================== */
-
-
-/* ==================================================
 >>>>>>>>>>>>>>>>// Reset CSS : Start //<<<<<<<<<<<<<
 ===================================================== */
 *,
@@ -108,6 +77,10 @@ h1 {
   color: var(--primary-color);
 }
 
+.background_color {
+  background-color: var(--header-color);
+}
+
 /* ==================================================
 >>>>>>>>>>>>>>// Common CSS : End //<<<<<<<<<<<<<<<<<
 ===================================================== */
@@ -118,6 +91,7 @@ h1 {
 ===================================================== */
 header {
   background-color: var(--header-color);
+  width: 100vw;
 }
 
 /* >>>>>>>> Heading Texts <<<<<<<< */
@@ -180,10 +154,6 @@ header {
 }
 
 /* >>>>> Featured Bikes Section Image Design <<<<<<< */
-.bike_collection_section  .col{
-
-}
-
 img.bike {
   width: 70%;
 }
@@ -201,10 +171,6 @@ img.bike {
 /* ==================================================
 ------// Clients Feedback Section CSS : Start //-----
 ===================================================== */
-.client_feedback {
-
-}
-
 .client_feedback span {
   color: var(--primary-color);
 }
@@ -235,27 +201,37 @@ img.bike {
 
 
 /* ==================================================
-------// Upcoming Matches Section CSS : Start //-----
+------// Form Section Section CSS : Start //-----
 ===================================================== */
+.input {
+  background-color: transparent;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
+.input_text {
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
-/* >>>>>>>> Upcoming Match Box Design <<<<<<<< */
+/* >>>>>>>> Form Section Box Design <<<<<<<< */
 
 
 /* ==================================================
-------// Upcoming Matches Section CSS : End //-------
-===================================================== */
-
-
-/* ==================================================
-----------// Sponsors Section CSS : Start //---------
-===================================================== */
-
-
-
-
-/* ==================================================
-----------// Sponsors Section CSS : End //-----------
+------// Form Section s Section CSS : End //-------
 ===================================================== */
 
 
@@ -268,7 +244,7 @@ img.bike {
 ===========// Footer Section CSS : Start //============
 ===================================================== */
 footer {
-  width: 100vw;
+  width: 100%;
   height: auto;
   min-height: 30vh;
   background-color: black;
